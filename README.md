@@ -26,8 +26,12 @@ npm dev
 
 ## Deploy
 
-
 ```bash
 npm build
 firebase deploy --only hosting
 ```
+
+## Inspiration
+
+* [Create an Online Multiplayer Tic-Tac-Toe Game with Vue and Firebase](https://javascript.plainenglish.io/create-an-online-multiplayer-tic-tac-toe-game-with-vue-and-firebase-5e0be047ba42)
+* [Roman Nuriks rtcfire demo](https://github.com/romannurik/rtcfire/blob/main/demos/tictactoe.html)
