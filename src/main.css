@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  label {
+    @apply text-gray-600;
+  }
+  input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded appearance-none;
+    @apply focus:outline-none focus:ring focus:ring-indigo-600 focus:ring-opacity-60;
+  }
+  button {
+    @apply flex items-center justify-center gap-3 px-4 py-2 text-white bg-indigo-500 border-0 rounded;
+    @apply hover:bg-indigo-600;
+    @apply focus:outline-none focus:ring focus:ring-indigo-600 focus:ring-opacity-60
+  }
+}
+
+@layer components {
+  .input--success {
+    @apply focus:ring-green-700 focus:ring-opacity-60
+  }
+  .btn--success {
+    @apply text-white bg-green-600;
+    @apply hover:bg-green-700;
+    @apply focus:ring-green-700 focus:ring-opacity-60
+  }
+  .input--warn {
+    @apply focus:ring-yellow-600 focus:ring-opacity-60
+  }
+  .btn--warn {
+    @apply text-gray-800 bg-yellow-500;
+    @apply hover:bg-yellow-600;
+    @apply focus:ring-yellow-600 focus:ring-opacity-60
+  }
+}
