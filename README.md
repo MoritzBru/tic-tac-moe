@@ -6,6 +6,7 @@ Also using
 * [Vite](https://github.com/vitejs/vite)
 * [Vue.js](https://github.com/vuejs/vue)
 * [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+* [Feather icons](https://github.com/feathericons/feather)
 
 ## Link
 
